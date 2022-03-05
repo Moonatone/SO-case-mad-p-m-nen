@@ -1,0 +1,199 @@
+/* hew giver den en commandi ud til hele html siden */
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+/* gør at navigtaions baren ser godt ud  */
+#navbar{
+position: fixed;
+top: 0;
+left: 100;
+width: 100%;
+transition:top 0.3s;
+background-color: grey ;
+display: block;
+
+
+}
+/*  fokusere på at gøre indholdet godt i navigationsbaren */
+
+#navbar a{
+  text-align: center;
+  float: left;
+  color: #fff; /*  skriver med hvid farbe */
+  padding: 10px 200px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font-size:30px;
+
+}
+/* hvis musen er henne over så gør dette  */
+#navbar a:hover{
+  background-color: #fff;
+  color:#000;
+}
+.home{
+  margin-top: 16px;
+}
+.home a{
+  background-image: url(41-home-outline.png);
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+p10{
+    font-size: 100px;
+}
+
+.header{
+  margin: 0px;
+  background-color: black;
+  background-image: url('moonbackground.jpg');
+  text-decoration: none;
+  background-repeat: no-repeat;
+  font-size:35px;
+  color: white;
+  text-align: left;
+  padding-top:500px;
+  padding-left: 450px;
+  padding-bottom: 575px;
+}
+
+.quickfind{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+}
+
+.quickfind a{
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 100px;
+  text-decoration: none;
+}
+
+.intro{
+  margin-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 2px;
+}
+
+
+p{
+  padding: 15px 15px;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.light{
+  background-repeat: no-repeat;
+  padding-top:500px;
+  padding-left: 119px;
+  padding-bottom: 575px;
+  background-image: url(sun.jpg);
+    font-size: 20px;
+}
+.light a{
+  margin: 15px 30px;
+    padding: 15px 15px;
+}
+
+p1{
+  margin: 15px 30px;
+
+  font-size: 30px;
+}
+
+.luft{
+  background-image:url(wind.jpg);
+  background-repeat: no-repeat;
+  padding-top:500px;
+  padding-left: 119px;
+  padding-bottom: 575px;
+}
+h1{
+  padding: 40px;
+  margin-right: 300px;
+  text-align: center;
+  top: 20px;
+  left: 30px;
+}
+h2{
+  padding: 40px;
+  margin-right: 300px;
+  text-align: center;
+  top: 20px;
+  left: 30px;
+}
+.vand{
+  background-image:url(vand.jpg);
+  background-repeat: no-repeat;
+  padding-top:500px;
+  padding-left: 119px;
+  padding-bottom: 575px;
+}
+
+.Næringsstoffer{
+  background-image:url(nærring.jpg);
+  background-repeat: no-repeat;
+  padding-top:500px;
+  padding-left: 119px;
+  padding-bottom: 575px;
+}
+
+.rum{
+  background-image:url(space.jpg);
+  background-repeat: no-repeat;
+  padding-top:500px;
+  padding-left: 119px;
+  padding-bottom: 575px;
+}
+
+.ray{
+  background-image: url(spectrum.png);
+  background-repeat: no-repeat;
+padding-top: 600px;
+}
+
+
+.bottom{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+}
+
+
+.bottom a {
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 100px;
+  text-decoration: none;
+}
+
+
+
+.welcome{
+  padding-top:50px;
+}
+.welcome h1{
+  margin-top: 50px;
+}
+
+.home a:hover{
+  background-image: url(41-home-outline.gif);
+}
